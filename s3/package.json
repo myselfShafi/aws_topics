@@ -1,0 +1,26 @@
+{
+  "name": "s3_bucket_name",
+  "version": "1.0.0",
+  "description": "s3 bucket setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myselfShafi/aws_topics.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "shafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myselfShafi/aws_topics/issues"
+  },
+  "homepage": "https://github.com/myselfShafi/aws_topics#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.787.0",
+    "@aws-sdk/s3-request-presigner": "^3.787.0"
+  }
+}
